@@ -1,0 +1,24 @@
+{
+  "name": "StatsPlus for CoinStats",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Additional Stats for CoinStats Portfolios",
+  "homepage_url": "https://codepen.io/michaelshoup/pen/GRWEQrM",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Run Calcs"
+  },
+  "icons": { 
+    "16": "stats-plus.png",
+    "48": "stats-plus.png",
+    "128": "stats-plus.png" 
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
